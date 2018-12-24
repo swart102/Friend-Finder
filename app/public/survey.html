@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     
@@ -29,13 +29,13 @@
 
                 <h3>About You</h3>
 
-                <label for="userID">Name (Required)</label>
+                <label for="name">Name (Required)</label>
                 <br>
-                <input id="userID" class="form-control" type="text" aria-label="name">
+                <input id="name" class="form-control" type="text" aria-label="name">
                 <br>
-                <label for="userID">Image (Required)</label>
+                <label for="image">Image (Required)</label>
                 <br>
-                <input id="userImg" class="form-control" type="text" aria-label="image">
+                <input id="image" class="form-control" type="text" aria-label="image">
                 <hr> 
 
                 
@@ -43,124 +43,123 @@
         </div>
 
         <div class="row">
-            <div class="col">
-                <form>  
-                    <div class="form-group">
+            <div class="col">      
+
                         <label for="question1">Question 1</label>
                         <p>I exercise regularly.</p>
-                        <select class="chosen-select" id=question1">
+                        <select class="chosen-select" id="question1">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                    <div class="form-group">
+                        <br />
+
                         <label for="question2">Question 2</label>
                         <p>I eat healthy food.</p>
-                        <select class="chosen-select" id=question2">
+                        <select class="chosen-select" id="question2">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                    <div class="form-group">
+                        <br />
+        
                         <label for="question3">Question 3</label>
                         <p>I'm always listening to music.</p>
-                        <select class="chosen-select" id=question3">
+                        <select class="chosen-select" id="question3">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                    <div class="form-group">
+                        <br />
+        
                         <label for="question4">Question 4</label>
                         <p>I prefer big concerts over smaller venues.</p>
-                        <select class="chosen-select" id=question4">
+                        <select class="chosen-select" id="question4">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                    <div class="form-group">
+                        <br />
+        
                         <label for="question5">Question 5</label>
                         <p>I would rather watch a movie in theatres then wait for the DVD.</p>
-                        <select class="chosen-select" id=question5">
+                        <select class="chosen-select" id="question5">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                    <div class="form-group">
+                        <br />
+        
                         <label for="question6">Question 6</label>
                         <p>I like to discuss tv shows as I'm watching them.</p>
-                        <select class="chosen-select" id=question6">
+                        <select class="chosen-select" id="question6">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                    <div class="form-group">
+                        <br />
+        
                         <label for="question7">Question 7</label>
                         <p>Camping > Beach</p>
-                        <select class="chosen-select" id=question7">
+                        <select class="chosen-select" id="question7">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                    <div class="form-group">
+                        <br />
+        
                         <label for="question8">Question 8</label>
                         <p>Urban > Rural</p>
-                        <select class="chosen-select" id=question8">
+                        <select class="chosen-select" id="question8">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                    <div class="form-group">
+                        <br />
+        
                         <label for="question9">Question 9</label>
                         <p>Video Games > Sports</p>
-                        <select class="chosen-select" id=question9">
+                        <select class="chosen-select" id="question9">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                    <div class="form-group">
+                        <br />
+        
                         <label for="question10">Question 10</label>
                         <p>The word "literally"</p>
-                        <select class="chosen-select" id=question10">
+                        <select class="chosen-select" id="question10">
                             <option>1 (Strongly Disagree)</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5 (Strongly Agree)</option>
                         </select>
-                    </div>
-                </form>
+                        <br />
             </div>
         </div>
 
         <div class="row">
             <div class="col">
+                    <br />
                 <button id ="submit" type ="submit" class="btn btn-primary">Submit</button>
             </div>  
         </div>
@@ -246,12 +245,12 @@
             $("#question10").val()
           ]
         };
-        console.log("one")
         $.post("/api/friends", userData, function(data) {
-          $("#match-name").text(data.name);
-          $("#match-img").attr("src", data.photo);
-          $("#results-modal").modal("toggle");
+            $("#match-name").text(data.name);
+            $("#match-img").attr("src", data.photo);
+            $("#results-modal").modal("toggle");
         });
+        console.log(userData)
       } else {
         alert("Please fill out all fields before submitting!");
       }
